@@ -1,0 +1,3 @@
+SectionID	Title	Status	CardIDs	Reason	Source
+demo-1.1	三种基本状态	已制卡	ac40ce314b626cc37f9e、1e5af4694d7f7cd5afef	覆盖三种状态定义及就绪态与阻塞态的易错区别。	示例教材.md::第1章::1.1
+demo-1.2	状态转换	已制卡	d75a09922d4bb52e3055、89e9abeb96d74fe97bea	覆盖运行到阻塞、阻塞到就绪及不能直接运行的边界。	示例教材.md::第1章::1.2

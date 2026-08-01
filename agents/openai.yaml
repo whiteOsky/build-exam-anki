@@ -1,0 +1,4 @@
+interface:
+  display_name: "考研笔记与Anki生成"
+  short_description: "从课程资料生成全覆盖背诵笔记、分章Anki和打印版"
+  default_prompt: "请根据我提供的课程资料，先建立逐节覆盖清单，再生成纯背诵笔记、按章独立Anki、覆盖报告和打印版。"

@@ -1,0 +1,25 @@
+name: 功能建议
+description: 提议新的资料类型、学科规则或质量门禁
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的真实问题
+      description: 说明当前流程在哪个具体场景不足。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: 兼容性与边界
+      description: 是否影响字段、GUID、目录或已有牌组。
+    validations:
+      required: true

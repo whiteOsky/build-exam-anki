@@ -1,0 +1,48 @@
+name: 缺陷报告
+description: 报告可复现的校验、打包、打印或审计问题
+title: "[缺陷] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请先删除教材正文、令牌、用户名和绝对路径。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 出错阶段
+      options:
+        - 来源检查或 OCR 清洗
+        - 笔记校验
+        - 卡片校验或 APKG 打包
+        - 覆盖与报告
+        - DOCX/PDF 打印
+        - 统一审计
+        - 安装或发布包
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现步骤
+      description: 使用脱敏的最小输入和完整命令。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为和错误输出
+    validations:
+      required: true
