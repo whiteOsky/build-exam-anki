@@ -1,0 +1,113 @@
+{
+  "release": "v1.1.0",
+  "total_decks": 10,
+  "total_cards": 12458,
+  "excluded": [
+    {
+      "name": "英语",
+      "reason": "第三方词汇牌组，不具备公开再分发授权"
+    }
+  ],
+  "decks": [
+    {
+      "name": "数据结构",
+      "file": "data-structures.apkg",
+      "cards": 822,
+      "notes": 822,
+      "media": 0,
+      "bytes": 238993,
+      "sha256": "230ae2fbf0c59c8682f562b8f73f801a5a23c2fb4c0ac443ac27592ad7397af3",
+      "scheduling_removed": true
+    },
+    {
+      "name": "操作系统",
+      "file": "operating-systems.apkg",
+      "cards": 1207,
+      "notes": 1207,
+      "media": 0,
+      "bytes": 259517,
+      "sha256": "0841437a38b578fbd04c408b56b3ce65b07b49d57bf1c8612080fdccf3c25227",
+      "scheduling_removed": true
+    },
+    {
+      "name": "计算机组成原理",
+      "file": "computer-organization.apkg",
+      "cards": 1173,
+      "notes": 1173,
+      "media": 0,
+      "bytes": 297091,
+      "sha256": "c725664c39bab12758afb84711731ea5567287f767a5ee45e64744aa65451eeb",
+      "scheduling_removed": true
+    },
+    {
+      "name": "计算机网络",
+      "file": "computer-networks.apkg",
+      "cards": 1689,
+      "notes": 1689,
+      "media": 0,
+      "bytes": 277213,
+      "sha256": "452ab50e78206190d60c6eed425df41ae855b4deace846a44b69991cf0872941",
+      "scheduling_removed": true
+    },
+    {
+      "name": "高等数学",
+      "file": "calculus.apkg",
+      "cards": 2146,
+      "notes": 2146,
+      "media": 0,
+      "bytes": 373530,
+      "sha256": "ab731f0bb488ad3f9b373ca814bc0df83a92ed5ffb4478c8baeac9182654c516",
+      "scheduling_removed": true
+    },
+    {
+      "name": "高等数学强化",
+      "file": "calculus-advanced.apkg",
+      "cards": 1751,
+      "notes": 1751,
+      "media": 0,
+      "bytes": 320967,
+      "sha256": "d0afadfb5ed7becc4836881abec01a9e65ccbde768383a9bb9b169944a911fbe",
+      "scheduling_removed": true
+    },
+    {
+      "name": "线性代数",
+      "file": "linear-algebra.apkg",
+      "cards": 833,
+      "notes": 833,
+      "media": 0,
+      "bytes": 145390,
+      "sha256": "ebbdd688fc4903ae197220c6af2acaadc8f319cde25fd7e0cd5cd1aa4416b2e5",
+      "scheduling_removed": true
+    },
+    {
+      "name": "线性代数强化",
+      "file": "linear-algebra-advanced.apkg",
+      "cards": 1058,
+      "notes": 1058,
+      "media": 0,
+      "bytes": 180094,
+      "sha256": "8d2b629780fc6156dd80adfaf21d1c74ca2e58cf70154edafca4dbd47fac8cc5",
+      "scheduling_removed": true
+    },
+    {
+      "name": "概率论",
+      "file": "probability.apkg",
+      "cards": 801,
+      "notes": 801,
+      "media": 0,
+      "bytes": 148445,
+      "sha256": "5fd82754e3510eab01d1e7dd35cca25ae32971e799a441fe1b84148bd520c37c",
+      "scheduling_removed": true
+    },
+    {
+      "name": "概率论强化",
+      "file": "probability-advanced.apkg",
+      "cards": 978,
+      "notes": 978,
+      "media": 0,
+      "bytes": 165146,
+      "sha256": "679dea4f9eabf8a0be9b203f023bd79b6dd19d2cbe464a3552aff5e5667f0337",
+      "scheduling_removed": true
+    }
+  ]
+}
