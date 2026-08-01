@@ -16,6 +16,8 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+      - name: 安装系统依赖
+        run: sudo apt-get update && sudo apt-get install -y pandoc
       - name: 校验标签和版本
         run: test "${GITHUB_REF_NAME#v}" = "$(cat VERSION)"
       - name: 安装依赖

@@ -2,6 +2,12 @@
 
 本项目遵循[语义化版本](https://semver.org/lang/zh-CN/)。
 
+## 1.0.1 - 2026-08-01
+
+### 修复
+
+- GitHub Actions 在运行真实 Pandoc 打印回归前安装系统级 Pandoc。
+
 ## 1.0.0 - 2026-08-01
 
 ### 新增
